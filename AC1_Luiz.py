@@ -17,7 +17,7 @@ print(30 * "---")
 
 ano = int(input("Insira Ano "))
 
-ano = ano % 400 == 0 or ano % 4 == 0 and ano % 100 != 0
+x = ano % 400 == 0 or ano % 4 == 0 and ano % 100 != 0
 
-
+print(x)
 
