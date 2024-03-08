@@ -27,6 +27,7 @@ def analisar_subst(ap1, ap2, asub):
 def notas_sao_validas(ap1, ap2, asub, ac):
     if 0 <= ap1 <= 10 and 0 <= ap2 <= 10 and 0 <= asub <= 10 and 0 <= ac <= 10:
         return True
+    else: (print("Notas inválidas"))
 
     """Retorna True se todas as notas estão entre 0 e 10, inclusive."""
     
