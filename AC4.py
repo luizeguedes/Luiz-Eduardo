@@ -1,6 +1,8 @@
 def ler_nome():
     """Retorna o nome do aluno inserido pelo usuário."""
     return input("Informe o seu nome: ")
+    if ler_nome == _ :
+    return False
 
 def ler_notas():
     """Lê as notas de AP1, AP2, AS e AC do aluno, e retorna essas notas."""
